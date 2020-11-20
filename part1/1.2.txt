@@ -1,0 +1,15 @@
+Before: 
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
+4204fb85e15b        nginx               "/docker-entrypoint.…"   2 minutes ago       Exited (0) 49 seconds ago                       practical_clarke
+304304b4832a        hello-world         "/hello"                 3 minutes ago       Exited (0) 3 minutes ago                        eloquent_noether
+47d2b31d5e91        nginx               "/docker-entrypoint.…"   3 minutes ago       Exited (0) 41 seconds ago                       zen_mcnulty
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+nginx               latest              daee903b4e43        2 days ago          133MB
+hello-world         latest              bf756fb1ae65        10 months ago       13.3kB
+
+After: 
+
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+nginx               latest              daee903b4e43        2 days ago          133MB
+hello-world         latest              bf756fb1ae65        10 months ago       13.3kB
