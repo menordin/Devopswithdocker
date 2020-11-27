@@ -1,3 +1,6 @@
+# Probably wont finish this chapter, since WSL is getting quite bothersome with the extra tools needed.
+Rip a debian wsl installation
+
 ## 3.1
 ### backend
 ```
@@ -37,3 +40,6 @@ COPY web /web
 EXPOSE 5000
 CMD ["npm", "start"]
 ```
+
+## 3.3
+Corresponding folder contains the files
