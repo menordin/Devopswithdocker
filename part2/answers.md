@@ -12,7 +12,7 @@ services:
 		``` 
 
 ## 2.2
-
+```
 :~/code/Devopswithdocker/part2$ cd 2.2/ && docker-compose up
 Creating network "22_default" with the default driver
 Creating 22_portti_1 ... done
@@ -33,6 +33,7 @@ services:
                 image: devopsdockeruh/ports_exercise
                 ports:
                         - 8080:80
+```
 
 ## 2.3
 ```
