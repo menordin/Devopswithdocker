@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+        backend:
+                ports:
+                        - 5000:5000
+                build: ~/code/Devopswithdocker/part1/exer1.11
+                environment:
+                        - REDIS=redis
+        frontend:
+                ports:
+                        - 8000:8000
+                build: ~/code/Devopswithdocker/part1/exer1.10
+        redis:
+                image: redis
+                ports:
+                        - 6379:6379
+
+
